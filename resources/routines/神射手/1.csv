@@ -1,0 +1,11 @@
+$, target=move_tolerance, value=30
+
+@, label=main
+*, x=-200, y=-19, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+>, label=switch, frequency=2, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=switch
+*, x=-200, y=-19, frequency=1, skip=False, adjust=False
+    switch_e, value=1

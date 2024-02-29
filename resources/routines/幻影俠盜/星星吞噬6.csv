@@ -1,0 +1,35 @@
+$, target=move_tolerance, value=0.055
+
+@, label=main
+*, x=0.232, y=0.242, frequency=1, skip=False, adjust=True
+    position
+    ·Rº¸¹F´µ­°Á{
+    ½ü
+*, x=0.596, y=0.242, frequency=1, skip=False, adjust=True
+    position
+*, x=0.879, y=0.242, frequency=1, skip=False, adjust=True
+    position
+*, x=0.596, y=0.242, frequency=1, skip=False, adjust=True
+    position
+>, label=R1, frequency=5, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=R1
+*, x=0.253, y=0.333, frequency=1, skip=False, adjust=False
+    position
+*, x=0.576, y=0.333, frequency=1, skip=False, adjust=False
+    position
+*, x=0.879, y=0.333, frequency=1, skip=False, adjust=False
+    position
+*, x=0.576, y=0.333, frequency=1, skip=False, adjust=False
+    position
+>, label=R2, frequency=2, skip=True
+>, label=R1, frequency=1, skip=False
+
+@, label=R2
+$, target=move_tolerance, value=0.08
+*, x=0.273, y=0.091, frequency=1, skip=False, adjust=False
+    position
+*, x=0.717, y=0.091, frequency=1, skip=False, adjust=False
+    position
+>, label=main, frequency=1, skip=False

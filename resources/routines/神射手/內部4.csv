@@ -1,0 +1,4 @@
+*, x=-25.000, y=-154.000, frequency=1, skip=False, adjust=False
+    Wait, duration=10
+    switch_e, value=1
+    Walk, direction=right, duration=0.01

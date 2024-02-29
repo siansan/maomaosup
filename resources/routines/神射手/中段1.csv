@@ -1,0 +1,20 @@
+
+@, label=main
+*, x=-1065.000, y=-1129.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+>, label=switch, frequency=30, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=switch
+*, x=-983.000, y=-656.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+*, x=-479.000, y=-707.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+*, x=-479.000, y=-1061.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+*, x=-523.000, y=-1347.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+*, x=-634.000, y=-1788.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+*, x=-1129, y=-1617.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1

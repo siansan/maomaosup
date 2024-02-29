@@ -1,0 +1,21 @@
+
+@, label=1
+*, x=1, y=-574, frequency=1, skip=False, adjust=False
+    position
+    Wait, duration=1
+>, label=2, frequency=60, skip=True
+>, label=1, frequency=1, skip=False
+
+@, label=2
+*, x=311, y=206, frequency=1, skip=False, adjust=False
+    position
+    Wait, duration=1
+>, label=3, frequency=60, skip=True
+>, label=2, frequency=1, skip=False
+
+@, label=3
+*, x=-740, y=-334, frequency=1, skip=False, adjust=False
+    position
+    Wait, duration=1
+>, label=1, frequency=60, skip=True
+>, label=3, frequency=1, skip=False

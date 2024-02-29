@@ -1,0 +1,13 @@
+
+@, label=main
+*, x=46.000, y=-25.000, frequency=1, skip=False, adjust=False
+    switch_e, value=1
+*, x=-497.000, y=-25.000, frequency=1, skip=False, adjust=False
+    switch_e, value=1
+>, label=switch, frequency=30, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=switch
+*, x=273.000, y=225.000, frequency=1, skip=False, adjust=False
+    Walk, direction=LEFT, duration=0.1
+    Arrow_Blaster, value=0

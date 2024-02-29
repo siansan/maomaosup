@@ -1,0 +1,19 @@
+$, target=move_tolerance, value=200
+
+@, label=main1
+*, x=-588.000, y=277.000, frequency=1, skip=False, adjust=False
+*, x=-654.000, y=-412.000, frequency=1, skip=False, adjust=False
+*, x=468.000, y=-430.000, frequency=1, skip=False, adjust=False
+*, x=379.000, y=277.000, frequency=1, skip=False, adjust=False
+>, label=main2, frequency=5, skip=True
+>, label=main1, frequency=1, skip=False
+
+@, label=main2
+*, x=-125.000, y=-128.000, frequency=1, skip=False, adjust=False
+*, x=-675, y=-412.000, frequency=1, skip=False, adjust=False
+*, x=-367.000, y=-848.000, frequency=1, skip=False, adjust=False
+*, x=484.000, y=-848.000, frequency=1, skip=False, adjust=False
+*, x=467.000, y=-242.000, frequency=1, skip=False, adjust=False
+*, x=360.000, y=277.000, frequency=1, skip=False, adjust=False
+>, label=main1, frequency=5, skip=True
+>, label=main2, frequency=1, skip=False

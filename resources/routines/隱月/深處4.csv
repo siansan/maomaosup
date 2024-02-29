@@ -1,0 +1,12 @@
+$, target=move_tolerance, value=50
+*, x=300, y=206.000, frequency=1, skip=False, adjust=False
+*, x=-430, y=206.000, frequency=1, skip=False, adjust=False
+*, x=-430, y=-34.000, frequency=1, skip=False, adjust=False
+*, x=-430, y=-274.000, frequency=1, skip=False, adjust=False
+$, target=move_tolerance, value=150
+*, x=767.000, y=-694.000, frequency=10, skip=True, adjust=False
+    ird
+*, x=474.000, y=-180.000, frequency=1, skip=False, adjust=False
+    key3
+*, x=697, y=-394, frequency=1, skip=False, adjust=False
+*, x=697.000, y=206.000, frequency=1, skip=False, adjust=False

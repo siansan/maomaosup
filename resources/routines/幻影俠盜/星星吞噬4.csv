@@ -1,0 +1,17 @@
+
+@, label=main
+*, x=0.500, y=0.218, frequency=1, skip=False, adjust=True
+    position
+    ½ü
+    Wait, duration=0.5
+>, label=money, frequency=60, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=money
+$, target=move_tolerance, value=0.05
+*, x=0.244, y=0.321, frequency=1, skip=False, adjust=False
+    ·Rº¸¹F´µ­°Á{
+*, x=0.795, y=0.321, frequency=1, skip=False, adjust=False
+*, x=0.564, y=0.218, frequency=1, skip=False, adjust=False
+*, x=0.308, y=0.218, frequency=1, skip=False, adjust=False
+>, label=main, frequency=1, skip=False

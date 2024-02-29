@@ -1,0 +1,9 @@
+*, x=-40.000, y=-166.000, frequency=1, skip=False, adjust=False
+    key1
+    Wait, duration=0.3
+    Walk, direction=left, duration=0.1
+    key1
+    Wait, duration=0.3
+    Walk, direction=right, duration=0.1
+*, x=930.000, y=-240.000, frequency=40, skip=True, adjust=True
+    ird

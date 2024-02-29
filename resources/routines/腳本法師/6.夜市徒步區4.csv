@@ -1,0 +1,6 @@
+$, target=move, value=0.07
+*, x=0.852, y=0.284, frequency=1, skip=False, adjust=True
+    Wait, duration=1.5
+    position
+    Walk, direction=left, duration=3
+    Wait, duration=1.5

@@ -1,0 +1,21 @@
+*, x=-210, y=120, frequency=1, skip=False, adjust=False
+    Wait, duration=0.1
+    position
+    key1, nd=1
+    Wait, duration=0.5
+    key2, nd=1, f=4
+*, x=-210, y=-572.000, frequency=1, skip=False, adjust=False
+    position
+    key1, nd=1
+    Wait, duration=0.5
+    key2, nd=1, f=4
+*, x=-210, y=-932, frequency=1, skip=False, adjust=False
+    position
+    key1, nd=1
+    Wait, duration=0.5
+    key2, nd=1, f=4
+*, x=-210, y=-572.000, frequency=1, skip=False, adjust=False
+    position
+    key1, nd=1
+    Wait, duration=0.5
+    key2, nd=1, f=4

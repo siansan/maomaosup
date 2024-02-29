@@ -1,0 +1,24 @@
+$, target=move_tolerance, value=150
+
+@, label=main
+*, x=734.000, y=195.000, frequency=1, skip=False, adjust=False
+    position
+*, x=59.000, y=195, frequency=1, skip=False, adjust=False
+    position
+    jump_onikiri
+*, x=-406.000, y=195.000, frequency=1, skip=False, adjust=False
+    position
+*, x=-1048.000, y=195.000, frequency=1, skip=False, adjust=False
+    position
+>, label=main2, frequency=5, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=main2
+*, x=59.000, y=-25.000, frequency=1, skip=False, adjust=False
+    Wait, duration=0.5
+    Walk, direction=left, duration=0.05
+    key3
+*, x=-389.000, y=-25.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    ird
+>, label=main, frequency=1, skip=False

@@ -1,0 +1,15 @@
+*, x=0.241, y=0.218, frequency=1, skip=False, adjust=False
+    position
+    key1
+*, x=0.494, y=0.218, frequency=1, skip=False, adjust=False
+    position
+    key2
+*, x=0.782, y=0.218, frequency=1, skip=False, adjust=False
+    position
+    key1
+    key4
+    Wait, duration=0.5
+    combo
+*, x=0.494, y=0.218, frequency=1, skip=False, adjust=False
+    position
+    key3

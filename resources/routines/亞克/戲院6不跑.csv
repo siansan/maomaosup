@@ -1,0 +1,18 @@
+
+@, label=main
+$, target=move_tolerance, value=50
+*, x=-98, y=-128, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+>, label=money, frequency=60, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=money
+$, target=move_tolerance, value=100
+*, x=-757, y=277, frequency=1, skip=False, adjust=False
+    Wait, duration=1.5
+*, x=-600, y=-412, frequency=1, skip=False, adjust=False
+    Wait, duration=1.5
+*, x=515, y=-430, frequency=1, skip=False, adjust=False
+    Wait, duration=1.5
+*, x=378, y=277, frequency=1, skip=False, adjust=False
+    Wait, duration=1.5

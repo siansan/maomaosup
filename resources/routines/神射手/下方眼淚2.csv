@@ -1,0 +1,4 @@
+$, target=move_tolerance, value=30
+*, x=1449, y=-237, frequency=1, skip=False, adjust=False
+    Wait, duration=10
+    switch_e, value=1

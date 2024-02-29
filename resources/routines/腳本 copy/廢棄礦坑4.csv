@@ -1,0 +1,2 @@
+$, target=move_tolerance, value=0.05
+*, x=0.621, y=0.516, frequency=1, skip=False, adjust=False

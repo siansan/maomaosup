@@ -1,0 +1,12 @@
+$, target=move_tolerance, value=0.075
+*, x=0.236, y=0.248, frequency=1, skip=False, adjust=False
+    position
+    key1
+    Wait, duration=0.5
+    combo
+    key10
+*, x=0.708, y=0.248, frequency=1, skip=False, adjust=False
+    position
+    key1
+    key4
+    key2

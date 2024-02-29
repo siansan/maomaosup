@@ -1,0 +1,14 @@
+
+@, label=main
+*, x=715, y=39, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key1
+>, label=money, frequency=10, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=money
+*, x=715, y=39, frequency=1, skip=False, adjust=False
+    Shuriken
+    Wait, duration=0.1
+*, x=1474.000, y=39.000, frequency=1, skip=False, adjust=False
+*, x=-158.000, y=39.000, frequency=1, skip=False, adjust=False

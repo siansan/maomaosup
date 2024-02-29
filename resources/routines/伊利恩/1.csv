@@ -1,0 +1,30 @@
+$, target=move_tolerance, value=30
+*, x=-4045.000, y=-253.000, frequency=1, skip=False, adjust=False
+    Wait, duration=0.5
+    key1
+    Wait, duration=1
+    crystal
+*, x=-3636.000, y=-253.000, frequency=1, skip=False, adjust=False
+    Wait, duration=0.5
+    key1
+    Wait, duration=1
+
+@, label=main
+$, target=move_tolerance, value=50
+*, x=-3845.000, y=-253.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+>, label=ball, frequency=18, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=ball
+$, target=move_tolerance, value=30
+*, x=-4045.000, y=-253.000, frequency=1, skip=False, adjust=False
+    Wait, duration=0.5
+    key1
+    Wait, duration=1
+    crystal
+*, x=-3636.000, y=-253.000, frequency=1, skip=False, adjust=False
+    Wait, duration=0.5
+    key1
+    Wait, duration=1
+>, label=main, frequency=1, skip=False

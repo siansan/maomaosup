@@ -1,0 +1,90 @@
+
+@, label=main
+$, target=move_tolerance, value=50
+*, x=66, y=-1, frequency=1, skip=False, adjust=False
+    switch_buff, value=0
+    key1
+    key5
+    key6
+>, label=money, frequency=10, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=main2
+$, target=move_tolerance, value=50
+*, x=66, y=-1, frequency=1, skip=False, adjust=False
+    switch_buff, value=0
+    key1
+    key5
+    key6
+>, label=money2, frequency=10, skip=True
+>, label=main2, frequency=1, skip=False
+
+@, label=money
+$, target=move_tolerance, value=50
+*, x=66.000, y=-1.000, frequency=1, skip=False, adjust=False
+    switch_buff, value=1
+*, x=616.000, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key4
+*, x=616.000, y=-541.000, frequency=1, skip=False, adjust=True
+    switch_SkillInjection, value=0
+    Wait, duration=1
+    ird
+*, x=794.000, y=-541.000, frequency=1, skip=False, adjust=True
+    Wait, duration=1
+    key8
+    Walk, direction=right, duration=0.15
+    Wait, duration=3.5
+    up
+    Wait, duration=0
+    switch_SkillInjection, value=1
+*, x=-523.000, y=-304.000, frequency=1, skip=False, adjust=True
+    Wait, duration=1
+    key8
+    Wait, duration=2
+    key3
+*, x=-882.000, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+*, x=-469.000, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+*, x=66, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+>, label=main2, frequency=1, skip=False
+
+@, label=money2
+$, target=move_tolerance, value=50
+*, x=66.000, y=-1.000, frequency=1, skip=False, adjust=False
+    switch_buff, value=1
+*, x=616.000, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key4
+*, x=616.000, y=-541.000, frequency=1, skip=False, adjust=True
+    switch_SkillInjection, value=0
+    Wait, duration=1
+    ird
+*, x=538.000, y=-541.000, frequency=1, skip=False, adjust=True
+    Wait, duration=1
+    key8
+    Walk, direction=left, duration=0.15
+    Wait, duration=3.5
+    up
+    Wait, duration=0
+    switch_SkillInjection, value=1
+*, x=-726.000, y=-304.000, frequency=1, skip=False, adjust=True
+    Wait, duration=1
+    key8
+    Wait, duration=2
+    key3
+*, x=-882.000, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+*, x=-469.000, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+*, x=66, y=-1.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+>, label=main, frequency=1, skip=False

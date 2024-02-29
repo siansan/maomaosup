@@ -1,0 +1,3 @@
+*, x=1443.000, y=455.000, frequency=1, skip=False, adjust=False
+    Arrow_Blaster, value=5
+    Wait, duration=10

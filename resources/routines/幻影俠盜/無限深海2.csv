@@ -1,0 +1,19 @@
+
+@, label=main
+$, target=move_tolerance, value=0.04
+*, x=0.503, y=0.462, frequency=1, skip=False, adjust=False
+    position
+    Wait, duration=0.5
+    rune
+*, x=0.503, y=0.462, frequency=4, skip=True, adjust=False
+    key5
+>, label=money, frequency=40, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=money
+$, target=move_tolerance, value=0.07
+*, x=0.266, y=0.587, frequency=1, skip=False, adjust=False
+*, x=0.755, y=0.587, frequency=1, skip=False, adjust=False
+*, x=0.559, y=0.210, frequency=1, skip=False, adjust=False
+*, x=0.238, y=0.336, frequency=1, skip=False, adjust=False
+>, label=main, frequency=1, skip=False

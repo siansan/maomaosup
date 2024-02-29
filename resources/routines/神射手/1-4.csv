@@ -1,0 +1,14 @@
+$, target=move_tolerance, value=30
+
+@, label=main
+*, x=-49.000, y=-136.000, frequency=1, skip=False, adjust=False
+    key1
+    Walk, direction=left, duration=0.5
+    key1
+>, label=switch, frequency=40, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=switch
+*, x=1022, y=-239.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    ird

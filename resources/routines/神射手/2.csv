@@ -1,0 +1,15 @@
+
+@, label=main
+*, x=444, y=-154, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    Walk, direction=left, duration=0.001
+>, label=switch, frequency=50, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=switch
+*, x=444, y=206.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    ird
+*, x=444, y=-634, frequency=1, skip=False, adjust=False
+    Walk, direction=LEFT, duration=0.1
+    Arrow_Blaster, value=0

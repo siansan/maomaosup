@@ -1,0 +1,9 @@
+
+@, label=main
+*, x=529, y=-327, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+>, label=money, frequency=20, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=money
+*, x=529.000, y=300.000, frequency=1, skip=False, adjust=False

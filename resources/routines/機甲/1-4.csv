@@ -1,0 +1,34 @@
+
+@, label=arrow
+*, x=50, y=-136, frequency=1, skip=False, adjust=True
+>, label=main, frequency=1, skip=False
+
+@, label=main
+$, target=move_tolerance, value=50
+*, x=70, y=-136, frequency=1, skip=False, adjust=False
+    switch_buff, value=0
+    key1
+    key5
+    key6
+>, label=money, frequency=20, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=money
+$, target=move_tolerance, value=20
+*, x=-34, y=-136, frequency=1, skip=False, adjust=False
+    switch_buff, value=1
+*, x=-968.000, y=31.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+*, x=-557.000, y=31.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+*, x=-246.000, y=31.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key2
+*, x=468.000, y=31.000, frequency=1, skip=False, adjust=False
+    Wait, duration=1
+    key3
+*, x=928.000, y=-239.000, frequency=1, skip=False, adjust=True
+    Wait, duration=1
+    ird

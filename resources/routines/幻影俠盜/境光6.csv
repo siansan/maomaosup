@@ -1,0 +1,29 @@
+$, target=move_tolerance, value=0.08
+
+@, label=main
+*, x=0.305, y=0.424, frequency=1, skip=False, adjust=False
+    position
+    key1
+    愛爾達斯降臨
+    輪
+*, x=0.834, y=0.424, frequency=1, skip=False, adjust=False
+    position
+    key1
+    黑傑克
+>, label=money, frequency=5, skip=True
+>, label=main, frequency=1, skip=False
+
+@, label=money
+$, target=move_tolerance, value=0.06
+*, x=0.795, y=0.278, frequency=1, skip=False, adjust=False
+    position
+    間隙斬
+*, x=0.795, y=0.119, frequency=1, skip=False, adjust=False
+    position
+    Wait, duration=1
+*, x=0.331, y=0.238, frequency=1, skip=False, adjust=False
+    position
+*, x=0.331, y=0.146, frequency=1, skip=False, adjust=False
+    position
+    Wait, duration=1
+>, label=main, frequency=1, skip=False

@@ -1,0 +1,3 @@
+*, x=501, y=396, frequency=1, skip=False, adjust=False
+    key1, nd=0
+    Wait, duration=5

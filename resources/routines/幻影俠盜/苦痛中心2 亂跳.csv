@@ -1,0 +1,38 @@
+$, target=move_tolerance, value=0.06
+*, x=0.308, y=0.417, frequency=3, skip=True, adjust=False
+    position
+    rune
+*, x=0.712, y=0.417, frequency=1, skip=False, adjust=True
+    position
+*, x=0.712, y=0.199, frequency=1, skip=False, adjust=False
+    position
+*, x=0.429, y=0.269, frequency=1, skip=False, adjust=False
+    position
+*, x=0.218, y=0.199, frequency=1, skip=False, adjust=False
+    position
+*, x=0.532, y=0.417, frequency=1, skip=False, adjust=False
+    position
+*, x=0.295, y=0.321, frequency=1, skip=False, adjust=False
+    position
+*, x=0.667, y=0.321, frequency=1, skip=False, adjust=False
+    position
+*, x=0.776, y=0.199, frequency=1, skip=False, adjust=False
+    position
+*, x=0.167, y=0.199, frequency=1, skip=False, adjust=False
+    position
+*, x=0.237, y=0.417, frequency=1, skip=False, adjust=True
+    position
+*, x=0.577, y=0.417, frequency=1, skip=False, adjust=False
+    position
+*, x=0.481, y=0.321, frequency=1, skip=False, adjust=False
+    position
+*, x=0.449, y=0.199, frequency=1, skip=False, adjust=False
+    position
+*, x=0.756, y=0.199, frequency=1, skip=False, adjust=False
+    position
+*, x=0.231, y=0.321, frequency=1, skip=False, adjust=False
+    position
+*, x=0.231, y=0.199, frequency=1, skip=False, adjust=False
+    position
+*, x=0.462, y=0.417, frequency=1, skip=False, adjust=False
+    position

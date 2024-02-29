@@ -1,0 +1,4 @@
+*, x=-82.000, y=-152.000, frequency=1, skip=False, adjust=False
+    Wait, duration=0.5
+    key1, nd=0
+    key5, nd=0
